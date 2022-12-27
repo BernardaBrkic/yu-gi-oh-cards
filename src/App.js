@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from "react";
 import CardsList from "./components/CardsList";
-import "./App.css";
+import "./index.css";
 import BackgroundImage from "./components/BackgroundImage";
 import AddCard from "./components/AddCard";
 
