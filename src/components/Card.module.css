@@ -1,0 +1,13 @@
+li.card {
+  padding: 1rem;
+}
+.card h2 {
+  color: #1a4d2e;
+}
+.card h4 {
+  color: #ff9f29;
+  padding: 0.5rem 0 1rem 0;
+}
+.card p {
+  padding-bottom: 0.5rem;
+}

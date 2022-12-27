@@ -1,0 +1,12 @@
+.cards-list {
+  margin-top: 2rem;
+  color: #faf3e3;
+  border-radius: 1rem;
+  background-color: #00000075;
+  box-shadow: #9f9f9f33 0px 12px 28px 0px,
+    #8585851a 0px 2px 4px 0px,
+    #8383830d 0px 0px 0px 1px inset;
+}
+ul.cards-list {
+  list-style: none;
+}

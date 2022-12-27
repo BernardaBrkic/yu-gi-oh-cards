@@ -1,0 +1,62 @@
+form.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #00000075;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: #9f9f9f33 0px 12px 28px 0px, #8585851a 0px 2px 4px 0px,
+    #8383830d 0px 0px 0px 1px inset;
+  margin-top: 2rem;
+}
+form.form h1 {
+  color: #ff9f29;
+}
+.input-field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: #faf3e3;
+}
+.input-field input,
+.input-field textarea {
+  background-color: #9797972e;
+  border: 0;
+  border-bottom: 1px solid #ff9f29;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  color: #faf3e3;
+}
+.input-field input:focus,
+.input-field textarea:focus {
+  background-color: #9797972e;
+  border: 1px solid #ff9f29;
+  outline: none;
+  border-radius: 1.5rem;
+  transition: 0.5s;
+}
+.input-field textarea {
+  resize: none;
+}
+.input-field label {
+  margin-top: 1rem;
+}
+form.form button {
+  width: fit-content;
+  align-self: flex-end;
+  background-color: #ff9f29;
+  padding: 0.5rem 2rem;
+  font-weight: bold;
+  border-radius: 2rem;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+form.form button:hover {
+  background-color: #1a4d2e;
+  color: #faf3e3;
+  transition: 0.2s;
+  font-weight: normal;
+}
+form.form button:active {
+  transform: scale(0.95);
+}
